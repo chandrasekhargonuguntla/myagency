@@ -1,0 +1,110 @@
+.boday{
+    padding:0px;
+    margin:0px;
+    font-family:  "poppins"sans-serif;
+
+}
+.main{
+    display: flex;
+}
+.main1 {
+    margin-left:30px;
+    font-size:30px;
+    font-weight:100;
+    
+}
+.main2{
+    margin-left:5px;
+    font-size:20px;
+
+}
+.main2a{
+    display: flex;
+    column-gap:15px;
+}
+.main2b{
+    display: flex;
+    column-gap:15px;
+    margin-top:-20px;
+}
+.main2c button{
+    width:240px;
+    height:65px;
+    background:#FFF59A;
+    border-radius:50px;
+    margin-top:50px;
+    margin-left:10px;
+    border-width:1px;
+}
+.main2c button:hover{
+    background: rgb(250, 253, 255);
+
+}
+.main3{
+    margin-left:130px;
+    margin-top:120px;
+}
+.service1{
+    margin-left:30px;
+    margin-top:150px;
+
+}
+
+
+
+.image-container{
+
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin-left:30px;
+    overflow: hidden;
+}
+
+.image-container img {
+   
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+    
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+ .btn button{
+    width:270px;
+    height:45px;
+    background-color: #FFF59A;
+    margin-left:37px;
+    margin-top:5px;
+    border-radius:50px;
+    border-width:1px;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+}
+
+
+.metrics-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top:70px;
+    padding: 20px;
+}
+
+.metric {
+    text-align: center;
+}
+
+.metric h2 {
+    font-size:3em;
+    color: #333;
+}
+
+.metric p {
+    font-size: 1em; 
+    margin-top: 10px;
+    margin-top:-30px;
+}
